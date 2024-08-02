@@ -1,21 +1,21 @@
 {
-    //this is block;
-    //or compound statements;
-    //var a = 10;
-    //console.log(a);
+    this is block;
+    or compound statements;
+    var a = 10;
+    console.log(a);
 }
 
-//if(true)//output --> syntaxerror because if expect single statement here;
-// if(true) true;//perfectly valid statements;
+if(true)//output --> syntaxerror because if expect single statement here;
+if(true) true;//perfectly valid statements;
 
 // but for multiple statement we are usig block( which is curly braces) so that   js treat that in single statement;
 // so we are writing code in block(with multiple statements) where js is expexting single statement;
-//Need block to write multiple statements;
+// Need block to write multiple statements;
 
 
 
 // How things work in block : and scope of block;
-//Hoisting
+// Hoisting
 
 //Example-1;
 
@@ -32,7 +32,7 @@ console.log(a);//output-->10
 //console.log(b);//output ---> refranceError-- b is not defined;
 //console.log(c);//output ---> refranceError-- b is not defined;
 
-// diffrent memory allocation happens for block scope variable and also for let and const diffrent memory allocation happen when they are hoisted;
+//diffrent memory allocation happens for block scope variable and also for let and const diffrent memory allocation happen when they are hoisted;
 
 
 //Example-2; Shadowing... illegal shadowing decaring var and let and const
