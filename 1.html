@@ -5,28 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Share Screenshot</title>
-  <script src="prtotypical_inheritance_and_chaining.js"></script>
+  <style>
+     .commonclass{
+         border: 1px solid black;
+         padding: 30px;
+         min-height: 100px;
+         min-width: 100px;
+     }
+  </style>
 </head>
 
 <body>
-  <div class="card">
-    <div class="card-image"></div>
-    <div class="card-content">
-      <h2 class="card-title">Card Title</h2>
-      <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero sed
-        orci efficitur congue.</p>
+  <div id="firstparent" class="commonclass">
+    <div id="secondparent" class="commonclass">
+      <div id="child" class="commonclass"></div>
     </div>
   </div>
-  <!-- <div class="bg">
 
-  </div> -->
-
-  <script>
-
-
-
-  </script>
-
+  <script src="eventbubbling_capturing.js"></script>
 </body>
 
 </html>

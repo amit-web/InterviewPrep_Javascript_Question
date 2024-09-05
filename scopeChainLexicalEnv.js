@@ -13,4 +13,4 @@ a();
 
 //scope === accessiability  
 
-// c is physicaly present inside the function A , so it's lexical parent is function a nd scope for  function c is  lexical parent function A;
+// c is physicaly present inside the function A , so it's lexical parent is function and scope for  function c is  lexical parent function A;
