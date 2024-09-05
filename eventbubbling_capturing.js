@@ -69,3 +69,46 @@ button.addEventListener("click", () => {
 //output----> firstparent,secondparent
 
 
+
+let arr = [[1, 2], [3, 4], [5, 6,[7, 8, 9]], [10, 11, 12, 13, 14, 15]]
+// function flatten(array) {
+//         let final = [];
+//         function helper(array) {
+//             for (let i = 0; i < array.length; i++) {
+//                 let ele = array[i]
+//             if (Array.isArray(ele)) {
+//                  helper(ele)
+//             }
+//             else {
+//                 final.push(ele)
+//             }
+//         }
+//     }
+//     helper(array)
+//     return final
+
+//     }
+
+// console.log(flatten(arr));
+
+
+// function flatten(arr) {
+//     let finalOutput = [];
+//     function check(arr) {
+//         for (let i = 0; i < arr.length; i++){
+//             let singleValue = arr[i];
+//             if (Array.isArray(singleValue)) {
+//                 check(singleValue)
+//             }
+//             else {
+//                 finalOutput.push(singleValue)
+//             }
+//         }
+
+       
+//     }
+//     check(arr);
+//     return finalOutput;
+// }
+
+// console.log(flatten(arr));
